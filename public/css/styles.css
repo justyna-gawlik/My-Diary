@@ -31,6 +31,10 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.form-control{
+    font-family: 'Grandstander', cursive !important;
+}
+
 .first{
     padding-top: 2px !important;
     padding-bottom: 8%;
