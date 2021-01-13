@@ -2,6 +2,7 @@ body {
    margin:0;
    padding:0;
    width:100%;
+   height: auto;
 }
 
   /*Sectors*/
@@ -231,7 +232,8 @@ background-color: #c70039;
      }
      
      .login-container{
-         margin-bottom:16px;
+         margin-bottom:10%;
+         margin-top:10%;
      }
      .container {
          padding-top: 20px;
@@ -239,6 +241,11 @@ background-color: #c70039;
          min-height: 70vh;
          word-wrap: break-word;
      }
+
+     .card.card-body{
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
      
      .form-group {
          margin-bottom: 0.5rem;
@@ -256,16 +263,20 @@ background-color: #c70039;
      
        /*Navbar*/
        .first{
-        padding-bottom: 57px;
+        padding-bottom: 150px;
     }
 
     .welcome{
         padding-top:8px;
         padding-bottom:8px;
     }
-       .navbar.navbar-default{
-        padding:0;
-        margin:0;
+    
+    .navbar-header{
+        text-align: center;
+    }
+
+    .welcome-header{
+        font-size:3rem;
     }
      
      .navbar-brand {
@@ -281,7 +292,7 @@ background-color: #c70039;
      }
      
        /*Fonts*/
-     
+    
      h2 {
          font-weight: 300;
          padding-bottom: 10px;
@@ -291,6 +302,16 @@ background-color: #c70039;
         font-size:1.4rem;
         text-align: justify;
     }
+
+    .display-3{
+        font-size:5rem;;
+    }
+
+    .lead {
+        font-size: 3.25rem;
+        font-weight: 300;
+    }
+
     .welcome.header {
         left: 15%;
         font-size: 40px;
@@ -306,7 +327,7 @@ background-color: #c70039;
 
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-           /*Sectors*/
+        /*Sectors*/
      
         .container.welcome {
             min-height: 81.5vh !important;
@@ -335,10 +356,6 @@ background-color: #c70039;
         }
         
           /*Navbar*/
-          .navbar.navbar-default{
-              padding:0;
-              margin:0;
-          }
 
           .first{
             padding-bottom: 30px;
@@ -348,13 +365,13 @@ background-color: #c70039;
             padding-top:8px;
             padding-bottom:8px;
         }
-
-        .navbar-brand {
-            text-align: center;
-        }
         
         .nav-link {
             font-size: 13px;
+        }
+
+        .justify-content-end{
+            text-align:center;
         }
         
         .nav-link:hover {
@@ -393,5 +410,6 @@ background-color: #c70039;
 
         .btn.btn-primary {
             margin-top:5px;
+            margin-bottom:5px;
         }
 }
