@@ -256,7 +256,7 @@ background-color: #c70039;
 
      .container-fluid {
         padding-top: 15%;
-        padding-bottom:15%;
+        padding-bottom:16%;
     }
      
      .form-group {
@@ -272,7 +272,7 @@ background-color: #c70039;
      
      .card.card-body.register{
         font-size:2rem;
-         margin-top: 1%;
+         margin-top: 2%;
          margin-bottom: 5%;
      }
      
@@ -351,12 +351,6 @@ background-color: #c70039;
          margin-bottom:20px;
          margin-top:30px;
      }
-
-     .card.card-body{
-         margin-top:5rem;
-         margin-bottom:5rem;
-        font-size:2rem;
-    }
 
     .btn-dark {
         font-size:3rem;
