@@ -227,7 +227,7 @@ background-color: #c70039;
        /*Sectors*/
      
      .container.welcome {
-         min-height: 75.5vh !important;
+         min-height: 78.5vh !important;
          text-align: center;
      }
      
@@ -238,7 +238,7 @@ background-color: #c70039;
      .container {
          padding-top: 20px;
          padding-bottom: 10px;
-         min-height: 76vh;
+         min-height: 77.5vh;
          word-wrap: break-word;
      }
 
@@ -260,13 +260,13 @@ background-color: #c70039;
      .card.card-body{
          font-size:2rem;
          margin-top: 4%;
-         margin-bottom: 7%;
+         margin-bottom: 5%;
      }
      
      .card.card-body.register{
         font-size:2rem;
-         margin-top: 5%;
-         margin-bottom: 5%;
+         margin-top: 1%;
+         margin-bottom: 1%;
      }
      
        /*Navbar*/
@@ -275,7 +275,7 @@ background-color: #c70039;
         padding-bottom: 150px;
     }
 
-    .welcome.header {
+    .welcome {
         left: 40%;
         font-size: 2rem;
     }
@@ -381,7 +381,7 @@ background-color: #c70039;
     .btn.btn-save{
         margin-top:20px;
         margin-right: 20px;
-       font-size:2rem;
+        font-size:2rem;
     }
     
     
@@ -394,8 +394,7 @@ background-color: #c70039;
     .btn.btn-warning{
         margin-top:20px;
         margin-right: 20px;
-       font-size:2rem;
-       padding:0!important;
+        font-size:2rem;
     }
 
     .btn.btn-danger{
