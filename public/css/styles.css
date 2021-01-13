@@ -238,7 +238,7 @@ background-color: #c70039;
      .container {
          padding-top: 20px;
          padding-bottom: 10px;
-         min-height: 70vh;
+         min-height: 73vh;
          word-wrap: break-word;
      }
 
@@ -302,7 +302,8 @@ background-color: #c70039;
      }
      
      .nav-link {
-         font-size: 1.5rem;
+         margin-top:1rem;
+         font-size: 1.7rem;
      }
      
      .nav-link:hover {
@@ -318,12 +319,22 @@ background-color: #c70039;
      h2 {
          font-weight: 300;
          padding-bottom: 30px;
-         font-size: 7rem;
+         font-size: 5rem;
      }
 
     h3{
         font-size:3rem;
         text-align: justify;
+    }
+
+    p{
+        font-size:2rem;
+    }
+
+    label{
+        margin-top:30px;
+        margin-bottom:30px;
+        font-size:1rem;
     }
 
     .display-3{
@@ -354,23 +365,38 @@ background-color: #c70039;
     }
 
     .btn-dark {
-        font-size:5rem;
+        font-size:3rem;
+        margin-left:1rem;
     }
 
     .btn-light {
-        font-size:5rem;
+        font-size:3rem;
+        margin-right:1rem;
     }
 
     .btn-google {
-        font-size:5rem;
-        margin-top:20px;
-        margin-bottom:20px;
+        font-size:3rem;
+        margin-top:50px;
+        margin-bottom:50px;
     }
 
     .btn.btn-primary {
-        font-size:5rem;
-        margin-top:20px;
-        margin-bottom:20px;
+        font-size:3rem;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+
+    .btn.btn-save{
+        margin-top:10px;
+        margin-right: 10px;
+       font-size:1rem;
+    }
+    
+    
+    .btn.btn-cancel{
+        margin-top:10px;
+        margin-right: 10px;
+       font-size:1rem;
     }
 
       /*Footer*/
@@ -425,7 +451,7 @@ background-color: #c70039;
         }
         
         .nav-link {
-            font-size: 2rem;
+            font-size: 3rem;
         }
 
         .justify-content-end{
@@ -467,7 +493,7 @@ background-color: #c70039;
         }
 
         .btn.btn-primary {
-            margin-top:5px;
+            margin-top:0;
             margin-bottom:20px !important;
         }
 }
