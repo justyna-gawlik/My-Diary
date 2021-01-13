@@ -242,9 +242,19 @@ background-color: #c70039;
          word-wrap: break-word;
      }
 
+     .container-fluid {
+        padding-top: 150px;
+        padding-bottom:20%;
+    }
+
      .card.card-body{
         margin-top: 10%;
         margin-bottom: 15%;
+    }
+
+    .card.card-body.register{
+        margin-top: 20%;
+        margin-bottom: 20%;
     }
      
      .form-group {
@@ -262,6 +272,13 @@ background-color: #c70039;
      }
      
        /*Navbar*/
+
+       .navbar {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 5rem;
+        font-weight: 500;
+    }
        .first{
         padding-bottom: 150px;
     }
@@ -281,10 +298,11 @@ background-color: #c70039;
      
      .navbar-brand {
          padding-left:20%;
+         font-size:5rem;
      }
      
      .nav-link {
-         font-size: 15.5px;
+         font-size: 2rem;
      }
      
      .nav-link:hover {
@@ -295,20 +313,22 @@ background-color: #c70039;
     
      h2 {
          font-weight: 300;
-         padding-bottom: 10px;
-         font-size: 1.7rem;
+         padding-bottom: 30px;
+         font-size: 7rem;
      }
+
     h3{
-        font-size:1.4rem;
+        font-size:5rem;
         text-align: justify;
     }
 
     .display-3{
-        font-size:5rem;;
+        margin-top:4rem;
+        font-size:8rem;
     }
 
     .lead {
-        font-size: 3.25rem;
+        font-size: 6rem;
         font-weight: 300;
     }
 
@@ -319,10 +339,28 @@ background-color: #c70039;
      
      .header {
          font-weight: 500;
-         font-size:2rem;
-         margin-bottom:2px;
+         font-size:7rem;
+         margin-bottom:50px;
      }
 
+     .card.card-body{
+         margin-top:5rem;
+         margin-bottom:5rem;
+        font-size:2rem;
+    }
+
+    .btn-dark {
+        font-size:2rem;
+    }
+
+      /*Footer*/
+
+.page-footer.font-small.indigo p {
+    font-size: 50px !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 300;
+}
 }
 
 
@@ -367,7 +405,7 @@ background-color: #c70039;
         }
         
         .nav-link {
-            font-size: 13px;
+            font-size: 2rem;
         }
 
         .justify-content-end{
@@ -410,6 +448,6 @@ background-color: #c70039;
 
         .btn.btn-primary {
             margin-top:5px;
-            margin-bottom:5px;
+            margin-bottom:20px !important;
         }
 }
