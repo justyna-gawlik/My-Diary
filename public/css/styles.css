@@ -177,6 +177,18 @@ background-color: #c70039;
     border-color: #f47498 !important;
 }
 
+.btn.btn-back{
+    background-color: #e36387 !important;
+    border-color: #f47498 !important;
+    margin-top:10px;
+    margin-right: 10px;
+}
+
+.btn.btn-back:hover {
+    background-color: #f47498 !important;
+    border-color: #f47498 !important;
+}
+
   /*Footer*/
 
 .page-footer.font-small.indigo {
@@ -244,7 +256,7 @@ background-color: #c70039;
 
      .container-fluid {
         padding-top: 15%;
-        padding-bottom:35%;
+        padding-bottom:15%;
     }
 
      .card.card-body{
@@ -260,7 +272,7 @@ background-color: #c70039;
      .card.card-body{
          font-size:2rem;
          margin-top: 4%;
-         margin-bottom: 5%;
+         margin-bottom: 25%;
      }
      
      .card.card-body.register{
@@ -369,9 +381,8 @@ background-color: #c70039;
 
     .btn.btn-primary {
         font-size:2rem;
-        margin-top:20px;
-        margin-bottom:20px;
-        margin-left: 20px;
+        margin-top:50px;
+        margin-bottom:50px;
     }
 
     .btn.btn-save{
@@ -384,12 +395,18 @@ background-color: #c70039;
     .btn.btn-cancel{
         margin-top:20px;
         margin-right: 20px;
-       font-size:2rem;
+        font-size:2rem;
     }
 
     .btn.btn-warning{
         margin-top:20px;
         margin-right: 20px;
+        margin-bottom:20px;
+        font-size:2rem;
+    }
+
+    .btn.btn-back{
+        margin-top:20px;
         margin-bottom:20px;
         font-size:2rem;
     }
