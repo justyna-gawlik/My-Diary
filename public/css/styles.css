@@ -302,7 +302,7 @@ background-color: #c70039;
      }
      
      .nav-link {
-         font-size: 2rem;
+         font-size: 1.5rem;
      }
      
      .nav-link:hover {
@@ -310,7 +310,11 @@ background-color: #c70039;
      }
      
        /*Fonts*/
-    
+    h1{
+        padding-bottom:50px;
+        font-size:3rem;
+        font-weight: 400;
+    }
      h2 {
          font-weight: 300;
          padding-bottom: 30px;
@@ -318,7 +322,7 @@ background-color: #c70039;
      }
 
     h3{
-        font-size:5rem;
+        font-size:3rem;
         text-align: justify;
     }
 
@@ -328,7 +332,7 @@ background-color: #c70039;
     }
 
     .lead {
-        font-size: 6rem;
+        font-size: 4rem;
         font-weight: 300;
     }
 
@@ -350,15 +354,31 @@ background-color: #c70039;
     }
 
     .btn-dark {
-        font-size:2rem;
+        font-size:5rem;
+    }
+
+    .btn-light {
+        font-size:5rem;
+    }
+
+    .btn-google {
+        font-size:5rem;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+
+    .btn.btn-primary {
+        font-size:5rem;
+        margin-top:20px;
+        margin-bottom:20px;
     }
 
       /*Footer*/
 
 .page-footer.font-small.indigo p {
-    font-size: 50px !important;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 20px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: 300;
 }
 }
