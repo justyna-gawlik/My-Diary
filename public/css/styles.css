@@ -3,6 +3,7 @@ body {
    padding:0;
    width:100%;
    height: auto;
+   font-family: 'Grandstander', cursive !important;
 }
 
   /*Sectors*/
@@ -96,12 +97,6 @@ h1,
 h3,
 p {
     font-weight: 300;
-    font-family: 'Grandstander', cursive !important;
-}
-
-.cke_editable {
-    font-size: 20px;
-    font-family: 'Grandstander', cursive !important;
 }
 
 h2 {
