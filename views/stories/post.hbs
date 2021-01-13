@@ -1,0 +1,15 @@
+<h2 class="header">
+    {{story.title}}
+</h2>
+
+<h6>
+    {{{story.body}}}
+</h6>
+
+
+<br>
+<div class="row">
+    <input class="btn btn-primary" type="button" value="⬅" onClick="history.go(-1);">
+    {{{editIcon story.user user story._id}}}
+</div>
+<br>

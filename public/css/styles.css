@@ -1,0 +1,397 @@
+body {
+   margin:0;
+   padding:0;
+   width:100%;
+}
+
+  /*Sectors*/
+
+.container.welcome {
+    min-height: 74.5vh !important;
+}
+
+.home-container{
+    padding-top: 8px;
+    padding-bottom: 11%;
+}
+
+.container {
+    padding-top: 50px;
+    font-family: 'Grandstander', cursive !important;
+    min-height: 80.5vh;
+    word-wrap: break-word;
+}
+
+.row{
+    margin:0!important;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.first{
+    padding-top: 2px !important;
+    padding-bottom: 8%;
+}
+
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom:2%;
+}
+
+.card.card-body{
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+
+.card.card-body.register{
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
+  /*Navbar*/
+
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    background-color: #ddf3f5;
+    font-family: 'Grandstander', cursive !important;
+}
+
+.navbar-brand {
+    padding-left: 70%;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-family: 'Handlee', cursive;
+}
+
+.nav-link {
+    color: #e36387 !important;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #fa26a0 !important;
+    transition: all 0.5s;
+    position: relative;
+    border: 1px solid #fa26a0;
+    cursor: pointer;
+}
+
+  /*Fonts*/
+
+h1,
+h3,
+p {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+    color: #e36387;
+    padding-bottom: 10px;
+}
+
+.read {
+    font-family: 'Grandstander', cursive !important;
+    color: #e36387 !important;
+}
+
+.welcome.header {
+    position: relative;
+    width: 100%;
+    left: 40%;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-family: 'Handlee', cursive;
+    color: black !important;
+    margin:0;
+    padding:0;
+} 
+
+.header {
+    color: #e36387 !important;
+    font-weight: 500;
+}
+
+  /*Buttons*/
+
+.btn.btn-warning{
+    margin-top:10px;
+    margin-right: 5px;
+    background-color: #f6d887;
+}
+
+.btn.btn-warning:hover{
+    background-color: #ffcc29;
+}
+
+.btn.btn-danger{
+    margin-top:10px;
+    margin-left: 5px;
+    background-color: #f05454;
+}
+
+.btn.btn-danger:hover{
+background-color: #c70039;
+}
+
+.btn.btn-save{
+    margin-top:2px;
+    margin-right: 5px;
+    background-color: #74c7b8;
+}
+
+.btn.btn-save:hover{
+background-color: #16c79a;
+}
+
+.btn.btn-cancel{
+    margin-top:2px;
+    margin-left: 5px;
+    background-color: #f05454;
+}
+
+.btn.btn-cancel:hover{
+background-color: #c70039;
+}
+
+.btn.btn-primary {
+    background-color: #e36387 !important;
+    border-color: #f47498 !important;
+    margin-top:10px;
+    margin-right: 10px;
+}
+
+.btn.btn-primary:hover {
+    background-color: #f47498 !important;
+    border-color: #f47498 !important;
+}
+
+  /*Footer*/
+
+.page-footer.font-small.indigo {
+    font-family: 'Handlee', cursive !important;
+    text-align: center;
+    background-color: #a6dcef;
+    bottom: 0 !important;
+    width: 100%;
+}
+
+.page-footer.font-small.indigo p {
+    font-size: 12px !important;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 300;
+    margin:0!important;
+}
+
+  /*Google form*/
+
+.btn-google {
+    color: #545454;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 1px #ddd
+}
+
+.or-container {
+    align-items: center;
+    color: #ccc;
+    display: flex;
+    margin: 25px 0
+}
+
+.line-separator {
+    background-color: #ccc;
+    flex-grow: 5;
+    height: 1px
+}
+
+.or-label {
+    flex-grow: 1;
+    margin: 0 15px;
+    text-align: center
+}
+
+@media(orientation:portrait){
+     
+       /*Sectors*/
+     
+     .container.welcome {
+         min-height: 85.5vh !important;
+         text-align: center;
+     }
+     
+     .login-container{
+         margin-bottom:16px;
+     }
+     .container {
+         padding-top: 20px;
+         padding-bottom: 10px;
+         min-height: 70vh;
+         word-wrap: break-word;
+     }
+     
+     .form-group {
+         margin-bottom: 0.5rem;
+     }
+     
+     .card.card-body{
+         margin-top: 4%;
+         margin-bottom: 7%;
+     }
+     
+     .card.card-body.register{
+         margin-top: 0;
+         margin-bottom: 0;
+     }
+     
+       /*Navbar*/
+       .first{
+        padding-bottom: 57px;
+    }
+
+    .welcome{
+        padding-top:8px;
+        padding-bottom:8px;
+    }
+       .navbar.navbar-default{
+        padding:0;
+        margin:0;
+    }
+     
+     .navbar-brand {
+         padding-left:20%;
+     }
+     
+     .nav-link {
+         font-size: 15.5px;
+     }
+     
+     .nav-link:hover {
+        border: none !important;
+     }
+     
+       /*Fonts*/
+     
+     h2 {
+         font-weight: 300;
+         padding-bottom: 10px;
+         font-size: 1.7rem;
+     }
+    h3{
+        font-size:1.4rem;
+        text-align: justify;
+    }
+    .welcome.header {
+        left: 15%;
+        font-size: 40px;
+    }
+     
+     .header {
+         font-weight: 500;
+         font-size:2rem;
+         margin-bottom:2px;
+     }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+           /*Sectors*/
+     
+        .container.welcome {
+            min-height: 81.5vh !important;
+            text-align: center;
+        }
+        
+        .container {
+            padding-top: 20px;
+            padding-bottom: 10px;
+            min-height: 67vh;
+            word-wrap: break-word;
+        }
+        
+        .form-group {
+            margin-bottom: 0.5rem;
+        }
+        
+        .card.card-body{
+            margin-top: 4%;
+            margin-bottom: 7%;
+        }
+        
+        .card.card-body.register{
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        
+          /*Navbar*/
+          .navbar.navbar-default{
+              padding:0;
+              margin:0;
+          }
+
+          .first{
+            padding-bottom: 30px;
+        }
+
+        .welcome{
+            padding-top:8px;
+            padding-bottom:8px;
+        }
+
+        .navbar-brand {
+            text-align: center;
+        }
+        
+        .nav-link {
+            font-size: 13px;
+        }
+        
+        .nav-link:hover {
+           border: none !important;
+        }
+        
+          /*Fonts*/
+
+        .display-3{
+            font-size:50px;
+        }
+
+        .lead{
+            font-size:15px;
+        }
+        
+        h2 {
+            font-weight: 300;
+            padding-bottom: 10px;
+            font-size: 1.7rem;
+        }
+       h3{
+           font-size:1.25rem;
+           text-align: justify;
+       }
+       .welcome.header {
+           left: 15%;
+           font-size: 40px;
+       }
+        
+        .header {
+            font-weight: 500;
+            font-size:2rem;
+            margin-bottom:2px;
+        }
+
+        .btn.btn-primary {
+            margin-top:5px;
+        }
+}

@@ -1,0 +1,19 @@
+<h1 class="header">Edit post</h1>
+</br>
+<form action="/stories/{{story._id}}" method="POST">
+    <div class="form-group">
+        <input type="hidden" name="_method" value="PUT">
+        <label for="title">Title</label>
+        <input name="title" class="form-control" id="title" autocomplete="off" value="{{story.title}}">
+
+        <label>Post</label>
+        <textarea class="form-control" name="body" id="body" rows="5">{{story.body}}</textarea>
+    </div>
+
+    <div class="row">
+
+        <input type="submit" value="Save" class="btn btn-save">
+        <a href="/posts" class="btn btn-cancel">Cancel</a>
+    </div>
+    <br>
+</form>

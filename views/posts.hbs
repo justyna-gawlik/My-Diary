@@ -1,0 +1,27 @@
+<h1 class="header">Your Posts</h1>
+<br>
+{{#if stories}}
+
+{{#each stories}}
+
+<h2>{{title}}</h2>
+
+<p>{{stripTags (truncate body 100)}}<a href="/stories/{{_id}}" class="read"> Read More</a></p>
+
+<div class="row">
+    {{{editIcon user ../user _id}}}
+    <form action="/stories/{{_id}}" method="POST" id="delete-form">
+        <input type="hidden" name="_method" value="DELETE">
+        <button class="btn btn-danger" type="submit" name="button"
+            onclick="return confirm('Are you sure you want to delete this post?');this.form.submit()">🗑️</button>
+
+    </form>
+</div>
+
+<br>
+
+{{/each}}
+
+{{else}}
+<h3>You have no posts yet. Click "new post" to start❕</h3>
+{{/if}}

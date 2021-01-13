@@ -1,0 +1,51 @@
+<%-include("partials ejs/header welcome")-%>
+
+<div class="row mt-5">
+<div class="col-md-6 m-auto">
+<div class="card card-body">
+<div class="login-container">
+    <h1>Login</h1>
+    <%- include('partials ejs/messages'); %>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="form-control"
+                  placeholder="Enter Password"
+                />
+              </div>
+                        <button type="submit" class="btn btn-primary btn-md btn-block wavesenter m-b-20">Login</button>
+                        <div class="or-container">
+                            <div class="line-separator"></div>
+                            <div class="or-label">or</div>
+                            <div class="line-separator"></div>
+                        </div>
+
+                        <a class="btn btn-md btn-google btn-block text-uppercase btn-outline" href="/auth/google"><img
+                                src="https://img.icons8.com/color/16/000000/google-logo.png">
+                            Sign Up with
+                            Google</a>
+                        <br>
+                        <p class="text-inverse text-center">
+                            Don't have an account? <a href="/register">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%-include("partials ejs/footer")-%>
