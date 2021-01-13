@@ -227,7 +227,7 @@ background-color: #c70039;
        /*Sectors*/
      
      .container.welcome {
-         min-height: 85.5vh !important;
+         min-height: 75.5vh !important;
          text-align: center;
      }
      
@@ -238,7 +238,7 @@ background-color: #c70039;
      .container {
          padding-top: 20px;
          padding-bottom: 10px;
-         min-height: 73vh;
+         min-height: 75vh;
          word-wrap: break-word;
      }
 
@@ -259,33 +259,32 @@ background-color: #c70039;
      
      .form-group {
          margin-bottom: 0.5rem;
+         font-size:1rem;
      }
      
      .card.card-body{
+         font-size:2rem;
          margin-top: 4%;
          margin-bottom: 7%;
      }
      
      .card.card-body.register{
+        font-size:2rem;
          margin-top: 0;
          margin-bottom: 0;
      }
      
        /*Navbar*/
 
-       .navbar {
-        padding-top: 50px;
-        padding-bottom: 30px;
-        font-size: 5rem;
-        font-weight: 500;
-    }
        .first{
         padding-bottom: 150px;
     }
 
-    .welcome{
-        padding-top:8px;
-        padding-bottom:8px;
+    .welcome.header{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 3rem;
+        font-weight: 500;
     }
     
     .navbar-header{
@@ -297,7 +296,7 @@ background-color: #c70039;
     }
      
      .navbar-brand {
-         padding-left:20%;
+         padding-left:40%;
          font-size:5rem;
      }
      
@@ -342,11 +341,6 @@ background-color: #c70039;
         font-size:8rem;
     }
 
-    .lead {
-        font-size: 4rem;
-        font-weight: 300;
-    }
-
     .welcome.header {
         left: 15%;
         font-size: 40px;
@@ -354,8 +348,9 @@ background-color: #c70039;
      
      .header {
          font-weight: 500;
-         font-size:7rem;
-         margin-bottom:50px;
+         font-size:6rem;
+         margin-bottom:30px;
+         margin-top:20px;
      }
 
      .card.card-body{
@@ -375,28 +370,34 @@ background-color: #c70039;
     }
 
     .btn-google {
-        font-size:3rem;
+        font-size:2rem;
         margin-top:50px;
         margin-bottom:50px;
     }
 
     .btn.btn-primary {
-        font-size:3rem;
+        font-size:2rem;
         margin-top:50px;
         margin-bottom:50px;
     }
 
     .btn.btn-save{
-        margin-top:10px;
-        margin-right: 10px;
-       font-size:1rem;
+        margin-top:20px;
+        margin-right: 20px;
+       font-size:2rem;
     }
     
     
     .btn.btn-cancel{
-        margin-top:10px;
-        margin-right: 10px;
-       font-size:1rem;
+        margin-top:20px;
+        margin-right: 20px;
+       font-size:2rem;
+    }
+
+    .btn.btn-warning{
+        margin-top:20px;
+        margin-right: 20px;
+       font-size:2rem;
     }
 
       /*Footer*/
@@ -451,10 +452,11 @@ background-color: #c70039;
         }
         
         .nav-link {
-            font-size: 3rem;
+            font-size: 3rem !important;
+            margin-left:1rem;
         }
 
-        .justify-content-end{
+        .navbar-header{
             text-align:center;
         }
         
