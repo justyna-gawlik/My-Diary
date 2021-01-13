@@ -227,7 +227,7 @@ background-color: #c70039;
        /*Sectors*/
      
      .container.welcome {
-         min-height: 78.5vh !important;
+         min-height: 80vh !important;
          text-align: center;
      }
      
@@ -238,13 +238,13 @@ background-color: #c70039;
      .container {
          padding-top: 20px;
          padding-bottom: 10px;
-         min-height: 77.5vh;
+         min-height: 77vh;
          word-wrap: break-word;
      }
 
      .container-fluid {
         padding-top: 20%;
-        padding-bottom:25%;
+        padding-bottom:45%;
     }
 
      .card.card-body{
@@ -273,11 +273,6 @@ background-color: #c70039;
 
     .first{
         padding-bottom: 150px;
-    }
-
-    .welcome {
-        left: 40%;
-        font-size: 2rem;
     }
     
     .navbar-header{
@@ -374,8 +369,8 @@ background-color: #c70039;
 
     .btn.btn-primary {
         font-size:2rem;
-        margin-top:50px;
-        margin-bottom:50px;
+        margin-top:20px;
+        margin-bottom:20px;
     }
 
     .btn.btn-save{
