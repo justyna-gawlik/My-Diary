@@ -238,13 +238,13 @@ background-color: #c70039;
      .container {
          padding-top: 20px;
          padding-bottom: 10px;
-         min-height: 78vh;
+         min-height: 76vh;
          word-wrap: break-word;
      }
 
      .container-fluid {
-        padding-top: 150px;
-        padding-bottom:20%;
+        padding-top: 20%;
+        padding-bottom:25%;
     }
 
      .card.card-body{
@@ -271,7 +271,7 @@ background-color: #c70039;
      
        /*Navbar*/
 
-       .first{
+    .first{
         padding-bottom: 150px;
     }
 
@@ -304,8 +304,8 @@ background-color: #c70039;
      
        /*Fonts*/
     h1{
-        padding-bottom:50px;
-        font-size:3rem;
+        padding-bottom:30px;
+        font-size:4rem;
         font-weight: 400;
     }
      h2 {
@@ -315,7 +315,7 @@ background-color: #c70039;
      }
 
     h3{
-        font-size:3rem;
+        font-size:4rem;
         text-align: justify;
     }
 
@@ -346,8 +346,8 @@ background-color: #c70039;
      .header {
          font-weight: 500;
          font-size:6rem;
-         margin-bottom:30px;
-         margin-top:20px;
+         margin-bottom:20px;
+         margin-top:30px;
      }
 
      .card.card-body{
@@ -395,7 +395,7 @@ background-color: #c70039;
         margin-top:20px;
         margin-right: 20px;
        font-size:2rem;
-       padding-bottom:5px;
+       padding:0!important;
     }
 
     .btn.btn-danger{
