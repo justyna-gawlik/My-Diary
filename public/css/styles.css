@@ -258,11 +258,6 @@ background-color: #c70039;
         padding-top: 15%;
         padding-bottom:15%;
     }
-
-     .card.card-body{
-        margin-top: 10%;
-        margin-bottom: 15%;
-    }
      
      .form-group {
          margin-bottom: 0.5rem;
@@ -278,7 +273,7 @@ background-color: #c70039;
      .card.card-body.register{
         font-size:2rem;
          margin-top: 1%;
-         margin-bottom: 1%;
+         margin-bottom: 3%;
      }
      
        /*Navbar*/
