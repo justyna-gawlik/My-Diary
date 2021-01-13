@@ -243,8 +243,8 @@ background-color: #c70039;
      }
 
      .container-fluid {
-        padding-top: 20%;
-        padding-bottom:45%;
+        padding-top: 15%;
+        padding-bottom:35%;
     }
 
      .card.card-body{
@@ -371,6 +371,7 @@ background-color: #c70039;
         font-size:2rem;
         margin-top:20px;
         margin-bottom:20px;
+        margin-left: 20px;
     }
 
     .btn.btn-save{
@@ -389,12 +390,14 @@ background-color: #c70039;
     .btn.btn-warning{
         margin-top:20px;
         margin-right: 20px;
+        margin-bottom:20px;
         font-size:2rem;
     }
 
     .btn.btn-danger{
         margin-top:20px;
         margin-right: 20px;
+        margin-bottom:20px;
        font-size:2rem;
     }
 
