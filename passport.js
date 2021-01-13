@@ -10,7 +10,7 @@ module.exports=function(passport){
     passport.use(new GoogleStrategy({
         clientID: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
-        callbackURL: "https://fierce-peak-76761.herokuapp.com/auth/google/home/auth/google/home",
+        callbackURL: "https://fierce-peak-76761.herokuapp.com/auth/google/home",
       },
     
       async (accessToken, refreshToken, profile, cb)=> {
