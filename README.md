@@ -1,4 +1,4 @@
-# To Do List
+# My Diary
 
 > My Diary is an apllication where you can make your own personal notes of daily events, feelings and secrets 📖
 
