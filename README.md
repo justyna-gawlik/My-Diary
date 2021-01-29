@@ -23,9 +23,9 @@
 
 To run this project install it locally using npm:
 
-cd.../MyDiary
-npm install
-npm start
+- cd.../MyDiary
+- npm install
+- npm start
 
 You can use it also here: http://justynagawlik.pl/
 
