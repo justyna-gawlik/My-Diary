@@ -3,7 +3,6 @@ body {
    padding:0;
    width:100%;
    height: auto;
-   font-family: 'Grandstander', cursive !important;
 }
 
   /*Sectors*/
@@ -30,9 +29,6 @@ body {
 
 .form-group {
     margin-bottom: 0.5rem;
-}
-
-.form-control{
     font-family: 'Grandstander', cursive !important;
 }
 
@@ -196,7 +192,7 @@ background-color: #c70039;
 
   /*Footer*/
 
-.page-footer.font-small.indigo {
+/* .page-footer.font-small.indigo {
     font-family: 'Handlee', cursive !important;
     text-align: center;
     background-color: #a6dcef;
@@ -210,7 +206,7 @@ background-color: #c70039;
     padding-bottom: 7px;
     font-weight: 300;
     margin:0!important;
-}
+} */
 
   /*Google form*/
 
@@ -281,6 +277,21 @@ background-color: #c70039;
          margin-bottom: 5%;
      }
      
+     
+    label{
+        margin-top:30px;
+        margin-bottom:30px;
+        font-size:2rem;
+    }
+
+    .display-3{
+        margin-top:4rem;
+        font-size:8rem;
+    }
+
+    .lead{
+        font-size:2rem;
+    }
        /*Navbar*/
 
     .first{
@@ -289,10 +300,6 @@ background-color: #c70039;
     
     .navbar-header{
         text-align: center;
-    }
-
-    .welcome-header{
-        font-size:3rem;
     }
      
      .navbar-brand {
@@ -330,20 +337,8 @@ background-color: #c70039;
         font-size:2rem;
     }
 
-    label{
-        margin-top:30px;
-        margin-bottom:30px;
-        font-size:2rem;
-    }
 
-    .display-3{
-        margin-top:4rem;
-        font-size:8rem;
-    }
-
-    .lead{
-        font-size:2rem;
-    }
+    /*Header*/
 
     .welcome.header {
         left: 15%;
@@ -356,6 +351,8 @@ background-color: #c70039;
          margin-bottom:20px;
          margin-top:30px;
      }
+
+    /*Buttons*/
 
     .btn-dark {
         font-size:3rem;
@@ -414,13 +411,13 @@ background-color: #c70039;
 
       /*Footer*/
 
-.page-footer.font-small.indigo p {
+/* .page-footer.font-small.indigo p {
     font-size: 20px !important;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-weight: 300;
+    font-weight: 300; */
 }
-}
+/* } */
 
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
@@ -495,6 +492,8 @@ background-color: #c70039;
            font-size:1.25rem;
            text-align: justify;
        }
+
+       /*Header*/
        .welcome.header {
            left: 15%;
            font-size: 40px;
@@ -505,6 +504,7 @@ background-color: #c70039;
             font-size:2rem;
             margin-bottom:2px;
         }
+        /*Buttons*/
 
         .btn.btn-primary {
             margin-top:0;
