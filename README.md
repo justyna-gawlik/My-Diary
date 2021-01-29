@@ -21,6 +21,8 @@
 
 ## Setup
 
+Downolad folder and add your own env file to connect with MongoDB.
+
 To run this project install it locally using npm:
 
 - cd.../MyDiary
